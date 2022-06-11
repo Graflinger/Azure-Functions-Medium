@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Kafka_Binding_test": {
+    "Azure_Fucntions_Medium": {
       "commandName": "Project",
       "commandLineArgs": "--port 7043",
       "launchBrowser": false
