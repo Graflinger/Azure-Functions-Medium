@@ -11,7 +11,7 @@ namespace Company.Function
         [return: Queue("test-output", Connection = "StorageConnectionAppSetting")]
         public static string Run([QueueTrigger("test-queue", Connection = "functionkafkatrigger2022_STORAGE")]string myQueueItem, ILogger log)
         {
-            log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
+            log.LogInformation($"C# Queue trigger function processed following message: {myQueueItem}");
             return myQueueItem;
         }
     }
