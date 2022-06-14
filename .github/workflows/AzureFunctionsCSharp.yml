@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Graflinger 
-Graflinger
-/
-Azure-Functions-Medium
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Create dotnet-desktop.yml Deploy DotNet project to Azure Function App #1
-Summary
-Workflow file
-Jobs
-build-and-deploy
-Workflow file for this run
-.github/workflows/dotnet-desktop.yml at 388a34f
 name: Deploy DotNet project to Azure Function App
 
 on:
